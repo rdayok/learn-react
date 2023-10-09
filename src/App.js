@@ -1,6 +1,7 @@
 import './App.css';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import GreetUser from './components/GreetUser';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Hello/>
       <Message></Message>
+      <GreetUser></GreetUser>
     </div> 
   );
 }
