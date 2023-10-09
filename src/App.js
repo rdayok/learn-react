@@ -5,6 +5,7 @@ import GreetUser from './components/GreetUser';
 import { Profile } from './components/Profile';
 import Welcome from './components/Welcom';
 import Walk from './components/Walk';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Profile></Profile>
       <Welcome firstName="Maxwell " lastName="Barde"/>
       <Walk placeToWork="street"></Walk>
+      <Counter />
     </div> 
   );
 }
