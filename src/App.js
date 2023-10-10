@@ -6,6 +6,8 @@ import { Profile } from './components/Profile';
 import Welcome from './components/Welcom';
 import Walk from './components/Walk';
 import Counter from './components/Counter';
+import Resume from './components/Resume';
+import EventHandle from './components/EventHandle';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Welcome firstName="Maxwell " lastName="Barde"/>
       <Walk placeToWork="street"></Walk>
       <Counter />
+      <Resume name="Renan"></Resume>
+      <EventHandle></EventHandle>
     </div> 
   );
 }

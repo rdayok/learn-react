@@ -9,11 +9,7 @@ class Counter extends Component{
     }
 
     increament(){
-        if(this.state.counter !== 30){
-            this.setState({
-                counter: this.state.counter + 1
-            })
-        }
+        this.state.counter !== 30 ? this.setState({ counter: this.state.counter + 1 }) : this.setState({ counter: this.state.counter})
     }
     decreament(){
         if(this.state.counter !== 0){
