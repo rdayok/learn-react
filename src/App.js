@@ -11,11 +11,13 @@ import EventHandle from './components/EventHandle';
 import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
 import Objectz from './components/Objectz';
+import ChangeButtonColor from './components/ChangeButtonColor';
 
 function App() {
   return (
     <div className="App">
       <Hello/>
+      <ChangeButtonColor></ChangeButtonColor>
       <Message></Message>
       <GreetUser></GreetUser>
       <Profile></Profile>
