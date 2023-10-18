@@ -8,6 +8,8 @@ import Walk from './components/Walk';
 import Counter from './components/Counter';
 import Resume from './components/Resume';
 import EventHandle from './components/EventHandle';
+import FunctionalCounter from './components/FunctionalCounter';
+import ConditionalComponent from './components/ConditionalComponent';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Counter />
       <Resume name="Renan"></Resume>
       <EventHandle></EventHandle>
+      <FunctionalCounter></FunctionalCounter>
+      <ConditionalComponent></ConditionalComponent>
     </div> 
   );
 }

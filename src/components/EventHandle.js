@@ -5,7 +5,7 @@ const EventHandle = () =>{
     return(
         <div>
             Functional Component Event Handling
-            <button onClick={handleClick}>Click Me</button>
+            <button onClick={handleClick}>Click me</button>
         </div>
     );
 }
