@@ -3,6 +3,7 @@ import Counter from "./Counter";
 import FunctionalCounter from "./FunctionalCounter";
 
 export default function ConditionalComponent(){
+    
     const [display, setDisplay] = useState(false);
     if(display){
         return (<div>
@@ -14,4 +15,4 @@ export default function ConditionalComponent(){
         </div>)
     }
     return 
-}
+}  

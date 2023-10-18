@@ -10,6 +10,7 @@ import Resume from './components/Resume';
 import EventHandle from './components/EventHandle';
 import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
+import Objectz from './components/Objectz';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <EventHandle></EventHandle>
       <FunctionalCounter></FunctionalCounter>
       <ConditionalComponent></ConditionalComponent>
+      <Objectz></Objectz>
     </div> 
   );
 }
