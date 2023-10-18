@@ -20,6 +20,6 @@ function Objectz(){
             {listOfItems}
         </ul>
     )
-} 
+}  
 
 export default Objectz;

@@ -12,6 +12,8 @@ import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
 import Objectz from './components/Objectz';
 import ChangeButtonColor from './components/ChangeButtonColor';
+import ElementVariable from './components/ElementVariable';
+import FetchingDummyData from './components/FetchingDummyData';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
       <FunctionalCounter></FunctionalCounter>
       <ConditionalComponent></ConditionalComponent>
       <Objectz></Objectz>
+      <ElementVariable></ElementVariable>
+      <FetchingDummyData></FetchingDummyData>
     </div> 
   );
 }
