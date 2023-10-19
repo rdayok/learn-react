@@ -14,6 +14,7 @@ import Objectz from './components/Objectz';
 import ChangeButtonColor from './components/ChangeButtonColor';
 import ElementVariable from './components/ElementVariable';
 import FetchingDummyData from './components/FetchingDummyData';
+import Form from './components/DataCapture';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <Objectz></Objectz>
       <ElementVariable></ElementVariable>
       <FetchingDummyData></FetchingDummyData>
+      <Form></Form>
     </div> 
   );
 }
