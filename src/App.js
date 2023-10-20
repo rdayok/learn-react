@@ -14,13 +14,14 @@ import Objectz from './components/Objectz';
 import ChangeButtonColor from './components/ChangeButtonColor';
 import ElementVariable from './components/ElementVariable';
 import FetchingDummyData from './components/FetchingDummyData';
-import Form from './components/DataCapture';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
       <Hello/>
       <ChangeButtonColor></ChangeButtonColor>
+      <Form></Form>
       <Message></Message>
       <GreetUser></GreetUser>
       <Profile></Profile>
