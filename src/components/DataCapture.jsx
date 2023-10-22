@@ -1,10 +1,11 @@
 import { Component } from "react";
 
-class Form extends Component{
+class DataCapture extends Component{
     state ={
          firstname: "",
          lastname: ""
     }
+    
 
     handleFirstnameChange = (event) => {
         this.setState({
@@ -12,21 +13,25 @@ class Form extends Component{
         })
     }
 
-    handleLastnameChange (event)  {
+    handleLastnameChange = (event) => {
         this.setState({
             lastname: event.target.value
         })
     }
 
     handleSubmit = (event) => {
-        
+        event.preventDefault();
+        console.log({
+            First_Name: this.state.firstname, 
+            Last_Name: this.state.lastname
+        })
     }
 
     render(){
-        console.log(this.state.firstname, this.state.lastname)
         return(
-            <div>Form
+            <div>
                 <form onSubmit={this.handleSubmit}>
+                    Form
                     <input 
                     onChange={this.handleFirstnameChange} 
                     type="text" 
@@ -46,4 +51,4 @@ class Form extends Component{
      
 }
 
-export default Form; 
+export default DataCapture; 

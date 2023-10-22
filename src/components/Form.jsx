@@ -17,7 +17,7 @@ export default function Form (){
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log("lastname")
+        
     }
 
     console.log(firstName, lastName)
@@ -36,7 +36,7 @@ export default function Form (){
                 onChange={handleLastNameChange} 
                 value={lastName}>
                 </input>
-                <button>Submit</button>
+                <button>Submited</button>
             </form>
         </div>
     )

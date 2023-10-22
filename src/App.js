@@ -15,13 +15,17 @@ import ChangeButtonColor from './components/ChangeButtonColor';
 import ElementVariable from './components/ElementVariable';
 import FetchingDummyData from './components/FetchingDummyData';
 import Form from './components/Form';
+import DataCapture from './components/DataCapture';
+import Todo from './components/ToDoList';
+import TodoListRender from './components/TodoListRender';
 
 function App() {
   return (
     <div className="App">
       <Hello/>
+      <Todo></Todo>
       <ChangeButtonColor></ChangeButtonColor>
-      <Form></Form>
+      <DataCapture></DataCapture>
       <Message></Message>
       <GreetUser></GreetUser>
       <Profile></Profile>

@@ -7,11 +7,14 @@ class Counter extends Component{
             counter: 0,
         };
     }
-
+    
+    
+    // I have to make this function an arrouw fuction if I didnt declare it as an arrow function in my render
     increament = () => {
         this.state.counter !== 30 ? this.setState({ counter: this.state.counter + 1 }) : this.setState({ counter: this.state.counter})
     }
 
+    // I could make this a method here because I have declared it as an arrrow function in my render
     decreament(){
         if(this.state.counter !== 0){
             this.setState({
